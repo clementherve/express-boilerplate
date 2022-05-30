@@ -7,7 +7,6 @@ const env: any = dotenv.config().parsed;
 assert(env != undefined);
 
 app.get("/articles", async (req: Request, resp: Response) => {
-  console.log("/articles");
   resp.send();
 });
 
