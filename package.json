@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
     "build-watch": "tsc --watch",
     "start-watch": "nodemon ./build/server.js",
+    "build": "tsc",
+    "start": "node ./build/server.js",
     "tests": "NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest"
   },
   "author": "",
