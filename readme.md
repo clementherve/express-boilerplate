@@ -1,4 +1,6 @@
-# Web server boilerplate
+# Express Web server boilerplate
+
+The goal is to build a web server built on typescript using TDD.
 
 ## Get started
 
@@ -17,3 +19,12 @@
 ```
 
 Check `package.json` for the all the options.
+
+## Technical stack
+
+- TypeScript
+- Express
+- Jest
+- Axios
+- Prettier
+- soon: AJV to validate API output
